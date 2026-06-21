@@ -9,7 +9,8 @@ Zaawansowana aplikacja webowa typu **SPA (Single Page Application)** stanowiąca
 **⚠️ Uwaga dotycząca uruchamiania:**
 Aplikacja korzysta z asynchronicznego pobierania danych (Fetch API) oraz Web Storage API. Z tego względu, w przypadku pobrania plików na dysk lokalny, uruchomienie aplikacji bezpośrednio poprzez dwukrotne kliknięcie w index.html (protokół file://) może zablokować niektóre funkcjonalności ze względów bezpieczeństwa przeglądarki (blokada CORS).
 
-Zalecam:
+**Zalecam:**
+
     Korzystanie z wersji Live Demo dostępnej w tym repozytorium (działa w pełni bez żadnej konfiguracji).
     Uruchamianie plików lokalnie wyłącznie przez wtyczkę Live Server w VS Code lub WebStorm, co symuluje środowisko serwera (protokół http://).
 ---
