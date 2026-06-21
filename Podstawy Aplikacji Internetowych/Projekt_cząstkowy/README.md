@@ -43,10 +43,10 @@ Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opart
 Wszystkie pliki graficzne oraz zrzuty ekranu dokumentujące działanie systemu znajdują się w strukturze projektu.
 
 ### Widoki podstron aplikacji:
-* **Rys. 1.1** – Główny panel pulpitu i nawigacji (`index.html`) ![Widok index.html](Sreenshot's/1.png)
-* **Rys. 1.2** – Interaktywny i adaptacyjny układ tabeli (`tabele.html`)![Widok tabele.html](Sreenshot's/2.png)
-* **Rys. 1.3** – Formularz z walidacją danych w czasie rzeczywistym (`formularze.html`)![Widok formularze.html](Sreenshot's/1.png)
-* **Rys. 1.4** – Multimedialna galeria z efektami rozświetlenia (`galeria.html`)![Widok galeria.html](Sreenshot's/1.png)
+* **Rys. 1.1** – Główny panel pulpitu i nawigacji (`index.html`) ![Widok index.html](Screenshot's/1.png)
+* **Rys. 1.2** – Interaktywny i adaptacyjny układ tabeli (`tabele.html`)![Widok tabele.html](Screenshot's/2.png)
+* **Rys. 1.3** – Formularz z walidacją danych w czasie rzeczywistym (`formularze.html`)![Widok formularze.html](Screenshot's/1.png)
+* **Rys. 1.4** – Multimedialna galeria z efektami rozświetlenia (`galeria.html`)![Widok galeria.html](Screenshot's/1.png)
 
 ---
 
