@@ -12,13 +12,13 @@ Katalog został podzielony na dwa kluczowe etapy wdrożeniowe, z których każdy
 * **Katalog projektu:** [`/Projekt_końcowy`](./Projekt_ko%C5%84cowy/)
 * **Główny Stack:** Vanilla JavaScript (ES6+), Bootstrap 5, Web Storage API (`localStorage`), Fetch API, CSS Variables.
 * **Zakres inżynierski:** Kompletna aplikacja **SPA** zarządzająca procesami planowania i komunikacji. Implementuje pełne operacje CRUD na harmonogramie zajęć, asynchroniczne zasilanie danymi z plików JSON, zintegrowany edytor notatek deweloperskich z opcją eksportu do struktur TXT/JSON oraz interaktywne forum roku działające w czasie rzeczywistym. Moduł UX oferuje dynamiczny wtrysk motywów (w tym High-Contrast dla dostępności) oraz integrację z Spotify API.
-* **Live Demo:** [🚀 Uruchom aplikację StudentHub](https://kamikaj.github.io/Studia-rok-2/Podstawy%20Aplikacji%20Internetowych/Projekt_ko%C5%84cowy/index.html)
+* **Live Demo:** [🚀 Uruchom aplikację - Pulpit Studenta](https://kamikaj.github.io/Studia-rok-2/Podstawy%20Aplikacji%20Internetowych/Projekt_ko%C5%84cowy/index.html)
 
-### 🛰️ 2. Deep Space — Interaktywny Przewodnik z Walidacją Real-Time
+### 🛰️ 2. Gwiezdny Interaktywny Przewodnik HTML z Walidacją Real-Time
 * **Katalog projektu:** [`/Projekt_cząstkowy`](./Projekt_cząstkowy/)
 * **Główny Stack:** HTML5 Semantic, CSS3 Core (Flexbox & CSS Grid), Vanilla JS, W3C Standards.
 * **Zakres inżynierski:** Projekt zorientowany na bezkompromisową wydajność renderowania i czystą semantykę struktur informacyjnych. Unikalna, ergonomiczna estetyka Dark Mode minimalizuje zmęczenie wzroku. Efekty wizualne (gwiezdne tło) zostały wygenerowane czystym algorytmem CSS, redukując wagę aplikacji. Zawiera inteligentny moduł walidacji formularzy w czasie rzeczywistym oparty na stanach natywnych pseudoklas CSS.
-* **Live Demo:** [🚀 Uruchom projekt Deep Space](https://kamikaj.github.io/Studia-rok-2/Podstawy%20Aplikacji%20Internetowych/Projekt_cz%C4%85stkowy/index.html)
+* **Live Demo:** [🚀 Uruchom projekt](https://kamikaj.github.io/Studia-rok-2/Podstawy%20Aplikacji%20Internetowych/Projekt_cz%C4%85stkowy/index.html)
 
 ---
 
