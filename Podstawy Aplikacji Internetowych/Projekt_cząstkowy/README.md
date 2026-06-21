@@ -3,7 +3,7 @@
 ### Projekt cząstkowy – Podstawy aplikacji internetowych
 **Autor:** Kamil Sitarski  
 **Kierunek:** Informatyka  
-**Uczelnia:** Politachnika Lubelska  
+**Uczelnia:** Politechnika Lubelska  
 
 ---
 
@@ -43,10 +43,10 @@ Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opart
 Wszystkie pliki graficzne oraz zrzuty ekranu dokumentujące działanie systemu znajdują się w strukturze projektu.
 
 ### Widoki podstron aplikacji:
-* **Rys. 1.1** – Główny panel pulpitu i nawigacji (`index.html`) ![Widok index.html](Screenshot's/1.png)
-* **Rys. 1.2** – Interaktywny i adaptacyjny układ tabeli (`tabele.html`)![Widok tabele.html](Screenshot's/2.png)
-* **Rys. 1.3** – Formularz z walidacją danych w czasie rzeczywistym (`formularze.html`)![Widok formularze.html](Screenshot's/1.png)
-* **Rys. 1.4** – Multimedialna galeria z efektami rozświetlenia (`galeria.html`)![Widok galeria.html](Screenshot's/1.png)
+* **Rys. 1.1** – Główny panel pulpitu i nawigacji (`index.html`) ![Widok index.html](assets/1.png)
+* **Rys. 1.2** – Interaktywny i adaptacyjny układ tabeli (`tabele.html`)![Widok tabele.html](assets/2.png)
+* **Rys. 1.3** – Formularz z walidacją danych w czasie rzeczywistym (`formularze.html`)![Widok formularze.html](assets/3.png)
+* **Rys. 1.4** – Multimedialna galeria z efektami rozświetlenia (`galeria.html`)![Widok galeria.html](assets/4.png)
 
 ---
 
