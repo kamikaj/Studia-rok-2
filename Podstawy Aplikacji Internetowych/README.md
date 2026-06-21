@@ -12,6 +12,12 @@ Katalog został podzielony na dwa kluczowe etapy wdrożeniowe, z których każdy
 * **Katalog projektu:** [`/Projekt_końcowy`](./Projekt_ko%C5%84cowy/)
 * **Główny Stack:** Vanilla JavaScript (ES6+), Bootstrap 5, Web Storage API (`localStorage`), Fetch API, CSS Variables.
 * **Zakres inżynierski:** Kompletna aplikacja **SPA** zarządzająca procesami planowania i komunikacji. Implementuje pełne operacje CRUD na harmonogramie zajęć, asynchroniczne zasilanie danymi z plików JSON, zintegrowany edytor notatek deweloperskich z opcją eksportu do struktur TXT/JSON oraz interaktywne forum roku działające w czasie rzeczywistym. Moduł UX oferuje dynamiczny wtrysk motywów (w tym High-Contrast dla dostępności) oraz integrację z Spotify API.
+
+* ⚠️ Uwaga dotycząca uruchamiania:
+Aplikacja korzysta z asynchronicznego pobierania danych (Fetch API) oraz Web Storage API. Z tego względu, w przypadku pobrania plików na dysk lokalny, uruchomienie aplikacji bezpośrednio poprzez dwukrotne kliknięcie w index.html (protokół file://) może zablokować niektóre funkcjonalności ze względów bezpieczeństwa przeglądarki (blokada CORS).
+Zalecam:
+    Korzystanie z wersji Live Demo dostępnej w tym repozytorium (działa w pełni bez żadnej konfiguracji).
+    Uruchamianie plików lokalnie wyłącznie przez wtyczkę Live Server w VS Code lub WebStorm, co symuluje środowisko serwera (protokół http://).
 * **Live Demo:** [🚀 Uruchom aplikację - Pulpit Studenta](https://kamikaj.github.io/Studia-rok-2/Podstawy%20Aplikacji%20Internetowych/Projekt_ko%C5%84cowy/index.html)
 
 ### 🛰️ 2. Gwiezdny Interaktywny Przewodnik HTML z Walidacją Real-Time
