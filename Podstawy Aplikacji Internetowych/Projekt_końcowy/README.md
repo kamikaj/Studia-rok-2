@@ -3,8 +3,16 @@
 Zaawansowana aplikacja webowa typu **SPA (Single Page Application)** stanowiąca kompletne środowisko do zarządzania procesami edukacyjnymi, czasem oraz komunikacją. Projekt demonstruje użycie czystego JavaScriptu (Vanilla JS ES6+) do zarządzania stanem, asynchronicznego pobierania danych oraz dynamicznej personalizacji interfejsu (UX/UI) przy użyciu frameworka Bootstrap 5.
 
 **Autor:** Kamil Sitarski 
-**Uruchom projekt:** [🚀 Zobacz Live Demo](https://kamikaj.github.io/Studia-rok-2/) *(Podmień ten link na swój adres GitHub Pages)*
 
+**Uruchom projekt:** [🚀 Zobacz Live Demo]([https://kamikaj.github.io/Studia-rok-2/](https://github.com/kamikaj/Studia-rok-2/blob/e3716bfe0fc288337874355d35a731be0de4e0f1/Podstawy%20Aplikacji%20Internetowych/Projekt_ko%C5%84cowy/index.html))
+⚠️ Uwaga dotycząca uruchamiania:
+Aplikacja korzysta z asynchronicznego pobierania danych (Fetch API) oraz Web Storage API. Z tego względu, w przypadku pobrania plików na dysk lokalny, uruchomienie aplikacji bezpośrednio poprzez dwukrotne kliknięcie w index.html (protokół file://) może zablokować niektóre funkcjonalności ze względów bezpieczeństwa przeglądarki (blokada CORS).
+
+Zalecam:
+
+    Korzystanie z wersji Live Demo dostępnej w tym repozytorium (działa w pełni bez żadnej konfiguracji).
+
+    Uruchamianie plików lokalnie wyłącznie przez wtyczkę Live Server w VS Code lub WebStorm, co symuluje środowisko serwera (protokół http://).
 ---
 
 ## Kluczowe Moduły i Funkcjonalności
