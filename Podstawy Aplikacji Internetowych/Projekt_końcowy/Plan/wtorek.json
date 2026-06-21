@@ -1,0 +1,30 @@
+[
+  {
+    "godzina": "10:30 - 12:00",
+    "przedmiot": "Bezpieczeństwo informacji",
+    "sala": "Laboratorium CT 204",
+    "prowadzacy": "dr inż.K.Kowalski",
+    "status": "9.06.2026r. - Wystawienie ocen"
+  },
+  {
+    "godzina": "12:30 - 14:00",
+    "przedmiot": "Podstawy inżynierii oprogramowania",
+    "sala": "Laboratorium PE 122",
+    "prowadzacy": "mgr inż.J.Nowak",
+    "status": "Ukończono zajęcia"
+  },
+  {
+    "godzina": "14:15 - 15:45",
+    "przedmiot": "Podstawy Aplikacji Internetowych",
+    "sala": "Laboratorium E214",
+    "prowadzacy": "mgr inż.K.Kowalska",
+    "status": "Projekt!"
+  },
+  {
+    "godzina": "16:00 - 18:15",
+    "przedmiot": "Technika mikroprocesorowa",
+    "sala": "Laboratorium CI 417A",
+    "prowadzacy": "dr inż.K.Kowal",
+    "status": "Ukończono zajęcia"
+  }
+]

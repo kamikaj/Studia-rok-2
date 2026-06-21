@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #050b1a;
+    color: #e0e0ff;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#kontener {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #0a1128;
+    min-height: 100vh;
+    box-shadow: 0 0 50px rgba(255, 204, 0, 0.15);
+}
+
+/* =========================================
+   2. Baner ze Złotymi Gwiazdami (Punkt b)
+   ========================================= */
+header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #000010;
+    background-image:
+            radial-gradient(1px 1px at 10px 10px, #fff, rgba(0,0,0,0)),
+            radial-gradient(1px 1px at 35px 25px, #eee, rgba(0,0,0,0)),
+            radial-gradient(1px 1px at 60px 80px, #fff, rgba(0,0,0,0)),
+            radial-gradient(2px 2px at 15px 50px, #fff, rgba(0,0,0,0)),
+            radial-gradient(1px 1px at 80px 15px, #ddd, rgba(0,0,0,0)),
+            radial-gradient(1px 1px at 90px 90px, #fff, rgba(0,0,0,0));
+    background-repeat: repeat;
+    background-size: 100px 100px;
+
+    color: #ffcc00;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+    text-shadow: 0 0 15px #ffcc00;
+}
+
+footer {
+    width: 100%;
+    background: #000020;
+    color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #1e3a8a;
+    margin-top: auto;
+}
+
+/*menu*/
+nav {
+    width: 100%;
+    background: #0a1128;
+    border-bottom: 2px solid #ffcc00;
+}
+
+#nav {
+    display: flex;
+    list-style: none;
+}
+
+#nav > li { position: relative; }
+
+#nav a {
+    display: block;
+    padding: 12px 25px;
+    color: #ffcc00;
+    text-decoration: none;
+    background: #101830;
+    border-right: 1px solid #1e3a8a;
+    transition: all 0.3s;
+}
+
+#nav a:hover {
+    background: #ffcc00;
+    color: #000;
+    box-shadow: inset 0 0 20px rgba(255,255,255,0.5);
+}
+
+#nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    min-width: 220px;
+    background: #101830;
+    border: 1px solid #ffcc00;
+    list-style: none;
+}
+
+#nav li:hover ul { display: block; }
+
+/*Układ kolumnowy*/
+main {
+    flex: 3;
+    background: rgba(16, 24, 48, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+    border: 1px solid #1e3a8a;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+}
+
+.box {
+    background: #101830;
+    color: #ffcc00;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #ffcc00;
+}
+
+.box a { color: #ffffff; text-decoration: none; }
+.box a:hover { color: #ffcc00; text-decoration: underline; }
+
+/*Tabela*/
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background: #0f172a;
+    color: #00d4ff;      /* Neonowy błękit */
+    border: 1px solid #00d4ff;
+}
+
+td, th {
+    border: 1px solid #1e3a8a;
+    padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+    background: #1e293b;
+}
+
+thead, tfoot {
+    background: #00d4ff; /* Neonowy błękit */
+    color: #000;         /* Czarne napisy dla kontrastu */
+    font-weight: bold;
+}
+
+form {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ffcc00;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select {
+    background: #0f172a;
+    color: #fff;
+    border: 1px solid #1e3a8a;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    width: 220px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffcc00;
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+input:invalid { border: 2px solid #ff4444; }
+input:valid { border: 2px solid #00ff00; }
+
+input[type="submit"], input[type="reset"] {
+    background: #ffcc00;
+    color: #000;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*Galeria*/
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.galeria a {
+    flex: 0 1 calc(33.33% - 20px);
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #1e3a8a;
+    transition: all 0.4s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.08) rotate(1deg);
+    border-color: #ffcc00;
+    box-shadow: 0 0 25px #ffcc00;
+}
+
+/*Responsywność*/
+@media (max-width: 800px) {
+    #kontener { flex-direction: column; }
+    main, aside { width: 100%; margin: 0; }
+    #nav { flex-direction: column; }
+    #nav a { border-right: none; border-bottom: 1px solid #1e3a8a; }
+    .galeria a { flex: 0 1 calc(50% - 20px); }
+}
+
+@media (max-width: 500px) {
+    .galeria a { flex: 0 1 100%; }
+    label { display: block; width: 100%; }
+    input[type="text"], input[type="email"], input[type="number"], select { width: 100%; }
+}

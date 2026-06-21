@@ -1,0 +1,30 @@
+[
+  {
+    "godzina": "08:30 - 10:00",
+    "przedmiot": "Podstawy paradygmatów programowania",
+    "sala": "Wykład E201",
+    "prowadzacy": "dr hab.J.Nowak",
+    "status": ""
+  },
+  {
+    "godzina": "11:00 - 12:30",
+    "przedmiot": "Wychowanie fizyczne II",
+    "sala": "Studium wychowania fizycznego",
+    "prowadzacy": "",
+    "status": ""
+  },
+  {
+    "godzina": "13:30 - 15:00",
+    "przedmiot": "Podstawy grafiki komputerowej",
+    "sala": "Laboratorium CI 403C",
+    "prowadzacy": "dr A.Kowalski",
+    "status": "10.06.2026r. - termin oddania projektu"
+  },
+  {
+    "godzina": "15:15 - 17:30",
+    "przedmiot": "Podstawy techniki cyfrowej",
+    "sala": "Laboratorium E312",
+    "prowadzacy": "dr inż.P.Nowak",
+    "status": "Przygotować protokół!"
+  }
+]

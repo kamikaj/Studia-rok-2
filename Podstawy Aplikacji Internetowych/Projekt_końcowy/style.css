@@ -1,0 +1,165 @@
+body.theme-yellow-dark {
+    --bg-MAIN: #121212;
+    --text-MAIN: #ffffff;
+    --accent-COLOR: #ffc107;
+    --nav-BG: #1e1e1e;
+    --nav-TEXT: #ffffff;
+    --card-BG: #1e1e1e;
+    --border-COLOR: #ffc107;
+    --table-text: #ffffff;
+}
+
+body.theme-dark {
+    --bg-MAIN: #000000;
+    --text-MAIN: #ffffff;
+    --accent-COLOR: #ffffff;
+    --nav-BG: #111111;
+    --nav-TEXT: #ffffff;
+    --card-BG: #111111;
+    --border-COLOR: #333333;
+    --table-text: #ffffff;
+}
+
+body.theme-light {
+    --bg-MAIN: #ffffff;
+    --text-MAIN: #000000;
+    --accent-COLOR: #000000;
+    --nav-BG: #f8f9fa;
+    --nav-TEXT: #000000;
+    --card-BG: #f8f9fa;
+    --border-COLOR: #dee2e6;
+    --table-text: #000000;
+}
+
+body {
+    background-color: var(--bg-MAIN) !important;
+    color: var(--text-MAIN) !important;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.custom-navbar {
+    background-color: var(--nav-BG) !important;
+    border-bottom: 2px solid var(--accent-COLOR) !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: var(--nav-TEXT) !important;
+}
+
+.custom-navbar .nav-link.active {
+    color: var(--accent-COLOR) !important;
+    font-weight: bold;
+}
+
+.card,
+.tab-content {
+    background-color: var(--card-BG) !important;
+    color: var(--text-MAIN) !important;
+    border-color: var(--border-COLOR) !important;
+}
+
+.card-header-accent {
+    background-color: var(--nav-BG) !important;
+    color: var(--accent-COLOR) !important;
+    border-bottom: 1px solid var(--border-COLOR) !important;
+}
+
+.table {
+    --bs-table-bg: var(--card-BG) !important;
+    --bs-table-color: var(--table-text) !important;
+    color: var(--table-text) !important;
+}
+
+.table td,
+.table th,
+.table tr,
+.table tbody,
+.table thead {
+    color: var(--table-text) !important;
+    background-color: var(--card-BG) !important;
+}
+
+.table a,
+.table .btn-link {
+    color: var(--accent-COLOR) !important;
+}
+
+.btn-accent {
+    background-color: var(--accent-COLOR) !important;
+    color: var(--bg-MAIN) !important;
+    border: 1px solid var(--accent-COLOR) !important;
+    font-weight: bold;
+}
+
+.btn-outline-accent {
+    color: var(--text-MAIN) !important;
+    border-color: var(--accent-COLOR) !important;
+    background: transparent;
+}
+
+.btn-outline-accent.active,
+.btn-outline-accent:hover {
+    background-color: var(--accent-COLOR) !important;
+    color: var(--bg-MAIN) !important;
+}
+
+.text-accent-dynamic {
+    color: var(--accent-COLOR) !important;
+}
+
+.CodeMirror {
+    height: 350px !important;
+    border-radius: 6px;
+    font-family: 'Fira Code', Consolas, monospace;
+    font-size: 14px;
+    border: 1px solid var(--border-COLOR) !important;
+}
+
+.notatka-karta {
+    transition: transform 0.2s;
+}
+
+.notatka-karta:hover {
+    transform: translateY(-2px);
+}
+
+.profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.profile-container:hover .profile-overlay {
+    opacity: 1;
+}
+
+.list-group-item.watek-aktywny {
+    background-color: #2b2b2b !important;
+    border-left: 4px solid #FFD700 !important;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    color: #ffffff;
+}
+
+.list-group-item.watek-aktywny small {
+    color: #cccccc !important;
+}
+
+.list-group-item-action:hover {
+    background-color: #252525;
+}
+
+#spotify-body {
+    border: 1px solid #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}

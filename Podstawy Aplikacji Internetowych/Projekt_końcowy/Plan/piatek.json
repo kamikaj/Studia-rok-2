@@ -1,0 +1,23 @@
+[
+  {
+    "godzina": "12:15 - 13:45",
+    "przedmiot": "Podstawy Aplikacji Internetowych",
+    "sala": "Wykład E201",
+    "prowadzacy": "dr B.Kowalska",
+    "status": "12.06.2026r. - egzamin termin 0"
+  },
+  {
+    "godzina": "14:00 - 15:30",
+    "przedmiot": "Podstawy grafiki komputerowej",
+    "sala": "Wykład E201",
+    "prowadzacy": "dr inż.J.Nowak",
+    "status": ""
+  },
+  {
+    "godzina": "16:15 - 17:45",
+    "przedmiot": "Podstawy paradygmatów programowania",
+    "sala": "Laboratorium PE 105",
+    "prowadzacy": "mgr inż.K.Kowal",
+    "status": "12.06.2026r. - Kolokwium"
+  }
+]

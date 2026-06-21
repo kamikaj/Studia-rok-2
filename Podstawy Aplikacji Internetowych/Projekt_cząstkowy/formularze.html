@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>formularze</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+</head>
+<body>
+<header>
+    <h1 class="banerText">Szybki kurs HTML</h1>
+</header>
+<nav>
+    <ul id="nav">
+        <li><a href="index.html">Podstawy</a></li>
+        <li><a href="tabele.html">Tabele</a></li>
+        <li><a href="#">Formularze</a>
+            <ul>
+                <li><a href="formularze.html" >Pola formularza</a></li>
+                <li><a href="obliczenia.html" >Obliczenia w formularzu</a></li>
+            </ul>
+        </li>
+        <li><a href="galeria.html">Galeria</a></li>
+    </ul>
+</nav>
+
+<div id="kontener">
+    <main>
+        <h2>Podstawowe znaczniki formularza HTML to:</h2>
+        <ul>
+            <li> &lt;form&gt; - znacznik podstawowy zawierający pola formularza</li>
+            <li> &lt;input&gt; - znacznik umożliający wstawienie różnych pól(pole tekstowe
+                , przycisk typu radio, przycisk typu checkbox) w zależności od wartości
+                jego atrybutu type</li>
+            <li> &lt;select&gt; - pole formularza typu lista rozwijana</li>
+            <li> &lt;textarea&gt; - pole formularza typu obszar tekstowy</li>
+            <li> &lt;button&gt; - pole formularza typu przycisk</li>
+        </ul>
+
+        <form action="mailto:kamikaj05@gmail.com" method="post">
+            <h3>Przykładowy formularz HTML:</h3>
+
+            <label class="label-nazwisko" for="nazwisko" style="display:inline-block; width:100px;">Nazwisko:</label>
+            <input type="text" id="nazwisko" name="nazwisko"
+                   pattern="[A-Za-zĄ-Źą-ź ]+"
+                   title="Nazwisko może zawierać tylko litery"
+                   placeholder="Twoje nazwisko" required /> <br>
+
+            <label class="label-wiek" for="wiek" style="display:inline-block; width:100px;">Wiek:</label>
+            <input type="number" id="wiek" name="wiek"
+                   min="7" max="120"
+                   placeholder="18" required
+                   oninvalid="this.setCustomValidity('Dopuszczalny wiek: 7-120')"
+                   oninput="this.setCustomValidity('')"/> <br>
+
+            <label class="label-panstwo" for="państwo" style="display:inline-block; width:100px;">Państwo:</label>
+            <select id="państwo" name="państwo">
+                <option value="Pl">Polska</option>
+                <option value="Ukr">Ukraina</option>
+                <option value="Buł">Bułgaria</option>
+            </select><br>
+
+            <label class="label-email" for="email" style="display:inline-block; width:100px;">Adres e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="email@domena.pl" required /> <br>
+
+            <h4>Zamawiam tutorial z języka:</h4>
+            <input type="checkbox" name="jezyk" value="PHP" class="check-group" /> PHP
+            <input type="checkbox" name="jezyk" value="C/C++" class="check-group" /> C/C++
+            <input type="checkbox" name="jezyk" value="Java" class="check-group" /> Java <br>
+            <br>
+
+            <h4>Sposób zapłaty:</h4>
+            <input type="radio" name="platnosc" value="eurocard" required
+                   oninvalid="this.setCustomValidity('Proszę wybrać sposób zapłaty')"
+                   oninput="this.setCustomValidity('')" /> eurocard
+
+            <input type="radio" name="platnosc" value="visa" /> visa
+            <input type="radio" name="platnosc" value="przelew" /> przelew bankowy<br>
+
+            <br>
+            <input type="submit" value="Wyślij" onclick="return sprawdzCheckboxy()" />
+            <input type="reset" value="Anuluj" />
+
+        </form>
+    </main>
+
+    <aside id="pasek">
+        <div class="box">
+            <h3>Walidatory:</h3>
+            <ul>
+                <li> <a href="http://validator.w3.org/">HTML </a></li>
+                <li> <a href="http://jigsaw.w3.org/css-validator/">CSS</a></li>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>Kursy:</h3>
+            <ul>
+                <li> <a href="https://www.w3schools.com/html/"> HTML </a></li>
+                <li> <a href="https://www.w3schools.com/css/"> CSS </a></li>
+                <li> <a href="https://www.w3schools.com/js/"> JS </a></li>
+                <li> <a href="https://www.w3schools.com/php/"> PHP </a></li>
+            </ul>
+        </div>
+    </aside>
+</div>
+
+<footer> &copy;BP </footer>
+
+<script>
+    function sprawdzCheckboxy() {
+        const checkboxy = document.querySelectorAll('.check-group');
+        const czyZaznaczono = Array.from(checkboxy).some(c => c.checked);
+
+        if (!czyZaznaczono) {
+            checkboxy[0].setCustomValidity('Proszę wybrać przynajmniej jeden tutorial');
+            checkboxy[0].reportValidity();
+            return false;
+        } else {
+            checkboxy[0].setCustomValidity('');
+            return true;
+        }
+    }
+
+    //czyszczenie błędu po kliknięciu w checkbox
+    document.querySelectorAll('.check-group').forEach(cb => {
+        cb.addEventListener('change', () => {
+            document.querySelectorAll('.check-group')[0].setCustomValidity('');
+        });
+    });
+</script>
+</body>
+</html>
