@@ -1,9 +1,6 @@
 # 🛰️ Gwiezdny Interaktywny Przewodnik HTML
 
-### Projekt cząstkowy – Podstawy aplikacji internetowych
 **Autor:** Kamil Sitarski  
-**Kierunek:** Informatyka  
-**Uczelnia:** Politechnika Lubelska  
 
 ---
 
