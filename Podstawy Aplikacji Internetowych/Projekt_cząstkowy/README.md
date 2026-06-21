@@ -1,6 +1,6 @@
-# Gwiezdny Interaktywny Przewodnik HTML
+# 🛰️ Gwiezdny Interaktywny Przewodnik HTML
 
-### 🛰️ Projekt cząstkowy – Podstawy aplikacji internetowych
+### Projekt cząstkowy – Podstawy aplikacji internetowych
 **Autor:** Kamil Sitarski  
 **Kierunek:** Informatyka  
 **Uczelnia:** Politachnika Lubelska  
@@ -43,22 +43,15 @@ Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opart
 Wszystkie pliki graficzne oraz zrzuty ekranu dokumentujące działanie systemu znajdują się w strukturze projektu.
 
 ### Widoki podstron aplikacji:
-* **Rys. 1.1** – Główny panel pulpitu i nawigacji (`index.html`)
-* **Rys. 1.2** – Interaktywny i adaptacyjny układ tabeli (`tabele.html`)
-* **Rys. 1.3** – Formularz z walidacją danych w czasie rzeczywistym (`formularze.html`)
-* **Rys. 1.4** – Multimedialna galeria z efektami rozświetlenia (`galeria.html`)
+* **Rys. 1.1** – Główny panel pulpitu i nawigacji (`index.html`) ![Widok index.html](Sreenshot's/1.png)
+* **Rys. 1.2** – Interaktywny i adaptacyjny układ tabeli (`tabele.html`)![Widok tabele.html](Sreenshot's/2.png)
+* **Rys. 1.3** – Formularz z walidacją danych w czasie rzeczywistym (`formularze.html`)![Widok formularze.html](Sreenshot's/1.png)
+* **Rys. 1.4** – Multimedialna galeria z efektami rozświetlenia (`galeria.html`)![Widok galeria.html](Sreenshot's/1.png)
 
 ---
 
 ## Walidacja i Kontrola Jakości (W3C)
 
-Kod źródłowy projektu został poddany rygorystycznym testom poprawności składniowej za pomocą oficjalnych walidatorów W3C. 
+Kod źródłowy projektu został poddany testom poprawności składniowej za pomocą oficjalnych walidatorów W3C. 
 
-### Wyniki walidacji:
-* **Rys. 1.5** – Wynik walidacji dla `galeria.html` (Brak błędów / Sukces)
-* **Rys. 1.6** – Wynik walidacji dla `index.html` (Brak błędów / Sukces)
-* **Rys. 1.7** – Wynik walidacji dla `formularze.html` (Brak błędów / Sukces)
-* **Rys. 1.8** – Wynik walidacji dla `tabele.html` (Brak błędów / Sukces)
-* **Rys. 1.9** – Wynik walidacji arkusza stylów `style.css` (Brak błędów / Sukces)
-
-> **Wnioski z walidacji:** Pozytywny wynik testów strukturalnych HTML5 oraz zgodności z CSS3 gwarantuje, że strona internetowa wyświetla się w sposób w pełni przewidywalny, stabilny i spójny na wszystkich nowoczesnych silnikach przeglądarek internetowych (Chromium, Gecko, WebKit).
+Pozytywny wynik testów strukturalnych HTML5 oraz zgodności z CSS3 gwarantuje, że strona internetowa wyświetla się w sposób w pełni przewidywalny, stabilny i spójny na wszystkich nowoczesnych silnikach przeglądarek internetowych (Chromium, Gecko, WebKit).
