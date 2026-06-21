@@ -45,8 +45,9 @@ Projekt opiera się na relacyjnej bazie danych, zaprojektowanej z myślą o spó
 #### Dokumentacja techniczna bazy danych:
 * [Pobierz pełny skrypt SQL (schema.sql)](./database/schema.sql) – definicja struktury tabel, kluczy głównych oraz relacji.
 
+### Projekt interfejsu (Mockup):
 ![Główny pulpit operacyjny](./design/main_dashboard_view.png)
-> **Projekt interfejsu (Mockup):** Główny panel operacyjny sprzedawcy zorientowany na optymalizację procesu weryfikacji zamówień. Projekt realizuje zasadę *Zarządzania Kontekstem* – integruje dane klienta, stany magazynowe oraz panel akcji decyzyjnych w jednym, ergonomicznym widoku, bezpośrednio wspierając procesy biznesowe zdefiniowane w dokumentacji.
+Główny panel operacyjny sprzedawcy zorientowany na optymalizację procesu weryfikacji zamówień. Projekt realizuje zasadę *Zarządzania Kontekstem* – integruje dane klienta, stany magazynowe oraz panel akcji decyzyjnych w jednym, ergonomicznym widoku, bezpośrednio wspierając procesy biznesowe zdefiniowane w dokumentacji.
 
 ## Pełna dokumentacja
 * [📄 Pobierz pełną dokumentację projektu (PDF)](./docs/Sklep-Internetowy-PIO-Projekt.pdf)
