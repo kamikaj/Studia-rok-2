@@ -3,11 +3,11 @@
 ### 🛰️ Projekt cząstkowy – Podstawy aplikacji internetowych
 **Autor:** Kamil Sitarski  
 **Kierunek:** Informatyka  
-**Uczelnia:** [Nazwa Uczelni]  
+**Uczelnia:** Politachnika Lubelska  
 
 ---
 
-## 🌌 O projekcie i estetyce
+## O projekcie i estetyce
 
 Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opartej na głębokiej, ciemnej kolorystyce, która minimalizuje zmęczenie wzroku użytkownika i nadaje projektowi nowoczesny, technologiczny charakter. 
 
@@ -18,7 +18,7 @@ Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opart
 
 ---
 
-## 🚀 Najciekawsze funkcjonalności
+## Najciekawsze funkcjonalności
 
 1. **Dynamiczny nagłówek z efektem gwiezdnym:** Wykorzystanie nakładających się gradientów radialnych w CSS pozwala na stworzenie głębokiego, kosmicznego tła bez użycia zewnętrznych ciężkich plików graficznych, co radykalnie optymalizuje czas ładowania strony.
 2. **Inteligentna walidacja formularza w czasie rzeczywistym:** Formularz sprawdza poprawność wprowadzanych danych (np. format adresu e-mail, zakres wieku) i komunikuje to wizualnie poprzez dynamiczną zmianę koloru obramowań pól za pomocą pseudoklas `:valid` i `:invalid`.
@@ -29,7 +29,7 @@ Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opart
 
 ---
 
-## 🛠️ Zastosowane technologie i rozwiązania
+## Zastosowane technologie i rozwiązania
 
 * **HTML5 Semantics:** Pełne wykorzystanie strukturalnych znaczników semantycznych (`<header>`, `<nav>`, `<main>`, `<aside>`, `<footer>`) gwarantujących poprawną architekturę informacji oraz SEO.
 * **CSS3 Flexbox & Grid:** Całkowite odejście od przestarzałego pozycjonowania float na rzecz nowoczesnych, elastycznych kontenerów w układzie kolumnowym oraz siatki galerii.
@@ -38,7 +38,7 @@ Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opart
 
 ---
 
-## 📂 Struktura widoków i dokumentacja zdjęciowa
+## Struktura widoków i dokumentacja zdjęciowa
 
 Wszystkie pliki graficzne oraz zrzuty ekranu dokumentujące działanie systemu znajdują się w strukturze projektu.
 
@@ -50,7 +50,7 @@ Wszystkie pliki graficzne oraz zrzuty ekranu dokumentujące działanie systemu z
 
 ---
 
-## 🧪 Walidacja i Kontrola Jakości (W3C)
+## Walidacja i Kontrola Jakości (W3C)
 
 Kod źródłowy projektu został poddany rygorystycznym testom poprawności składniowej za pomocą oficjalnych walidatorów W3C. 
 
@@ -61,4 +61,4 @@ Kod źródłowy projektu został poddany rygorystycznym testom poprawności skł
 * **Rys. 1.8** – Wynik walidacji dla `tabele.html` (Brak błędów / Sukces)
 * **Rys. 1.9** – Wynik walidacji arkusza stylów `style.css` (Brak błędów / Sukces)
 
-> 📝 **Wnioski z walidacji:** Pozytywny wynik testów strukturalnych HTML5 oraz zgodności z CSS3 gwarantuje, że strona internetowa wyświetla się w sposób w pełni przewidywalny, stabilny i spójny na wszystkich nowoczesnych silnikach przeglądarek internetowych (Chromium, Gecko, WebKit).
+> **Wnioski z walidacji:** Pozytywny wynik testów strukturalnych HTML5 oraz zgodności z CSS3 gwarantuje, że strona internetowa wyświetla się w sposób w pełni przewidywalny, stabilny i spójny na wszystkich nowoczesnych silnikach przeglądarek internetowych (Chromium, Gecko, WebKit).
