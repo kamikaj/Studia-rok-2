@@ -7,6 +7,8 @@
 ## Cel Projektu
 Projekt stanowi studium syntezy środowiska 3D, zaawansowanego shading'u PBR oraz reżyserii dynamicznej sekwencji filmowej. Celem było nie tylko techniczne zbudowanie sceny, ale wykreowanie gęstego, mrocznego klimatu nocy, w którym surowy obiekt archeologiczny (świecznik) staje się centrum narracji, przerwanej gwałtownym akcentem animacyjnym. Całość została poddana rygorystycznej optymalizacji pod kątem wydajności silnika Cycles.
 
+Dokumentacja opisująca szczegółowy przebieg prac znajduje się w folderze `docs`.
+
 ## 🛠 Stos Technologiczny
 *   **Silnik graficzny:** Blender 3D (Render Engine: Cycles)
 *   **PBR Workflow:** Mapowanie struktur wejściowych (Normal, Specular, Ambient Occlusion).
@@ -42,10 +44,14 @@ Wprowadzenie akcji do zamrożonego świata przy jednoczesnym bezwzględnym cięc
 
 ## 🖼 Galeria Efektów
 
-| Faza projektu | Opis procesu | Podgląd |
-| :--- | :--- | :--- |
-| **Etap 1** | Surowa kompozycja, budowa klimatu i oświetlenia | ![Etap 1](./Etap1_render.png) |
-| **Etap 2** | Detale PBR (Świecznik po rekonstrukcji struktur) | ![Etap 2](./Etap2_render.png) |
-| **Etap 3** | Finałowa sekwencja animacji (Uderzenie siekiery) | ![Etap 3](./Etap3_render.gif) |
+### Etap 1: Budowa sceny i oświetlenia
+Surowa kompozycja, budowa klimatu oraz wstępne ustawienie świateł.
+![Etap 1](./assets/Etap1_render.png)
 
----
+### Etap 2: Detale PBR
+Świecznik po rekonstrukcji struktur, konfiguracja węzłów materiału i mapowanie powierzchni.
+![Etap 2](./assets/Etap2_render.png)
+
+### Etap 3: Finalna sekwencja animacji
+Pełny podgląd wyrenderowanej animacji w formie zapętlonego pliku GIF.
+![Etap 3](./assets/Etap3_render.gif)
