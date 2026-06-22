@@ -39,6 +39,13 @@ Projekty, które wymagały najwięcej rygoru inżynieryjnego:
     *   Projektowanie mockupów (UI/UX) dla ról: Sprzedawca, Magazynier, Księgowa.
     *   XML jako format wymiany danych.
 
+#### 3. Interaktywne Projekty Układów Cyfrowych (Platforma CircuitVerse)
+* **Czym jest:** Zbiór autorskich, w pełni interaktywnych schematów logicznych zrealizowanych w ramach przedmiotu Podstawy Technik Cyfrowych. 
+* **Obszar inżynieryjny:**
+    * **Logika kombinacyjna i sekwencyjna:** Projektowanie, analiza i optymalizacja zaawansowanych układów cyfrowych (podstawowe bramki, multipleksery, demultipleksery, przerzutniki i liczniki).
+    * **Optymalizacja sprzętowa:** Praktyczne zastosowanie algebry Boole’a oraz map Karnaugha w celu minimalizacji liczby elementów logicznych w strukturze układu.
+* **Uruchom symulację:** [🚀 Moje Schematy na CircuitVerse](https://circuitverse.org/users/399397)
+
 ---
 ### 🛠️ Wykorzystywany Stack Techniczny
 *   **Języki:** C, Java, SQL, JavaScript (ES6+), HTML5/CSS3, Python
