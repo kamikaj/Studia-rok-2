@@ -1,18 +1,19 @@
-Projekt: Brama Krakowska – Retusz i Montaż Cyfrowy
+**Projekt:** Brama Krakowska – Retusz i Montaż Cyfrowy
 
-Autor: Kamil Sitarski
+**Autor:** Kamil Sitarski
 
-Cel Projektu
+**Cel Projektu**
 
 Projekt stanowi studium zaawansowanej edycji grafiki rastrowej, przeprowadzone w trzech kluczowych fazach. Celem było nie tylko techniczne oczyszczenie materiału źródłowego, ale całkowita transmutacja obrazu – od naprawy artefaktów, przez autorską kolorystykę, aż po fotorealistyczny montaż postaci wewnątrz wykreowanej rzeczywistości.
-🛠 Stos Technologiczny
+
+**🛠 Stos Technologiczny**
 
     Oprogramowanie: [Wpisz nazwę programu, np. GIMP / Adobe Photoshop]
 
     Kluczowe techniki: Edycja nieliniowa, separacja warstwowa, maskowanie alfa, korekcja perspektywy i dynamiki tonalnej.
 
-Przebieg Prac
-Etap 1: Naprawa i Korekta Techniczna
+**Przebieg Prac**
+**Etap 1:** Naprawa i Korekta Techniczna
 
 Fundament projektu. Skupienie na czystości obrazu i geometrii.
 
@@ -22,7 +23,7 @@ Fundament projektu. Skupienie na czystości obrazu i geometrii.
 
     Dynamika: Optymalizacja krzywych tonalnych (pogłębienie czerni przy zachowaniu detali świateł) oraz selektywne wyostrzanie architektury.
 
-Etap 2: Koloryzacja i Kompozycja Środowiskowa
+**Etap 2:** Koloryzacja i Kompozycja Środowiskowa
 
 Przekształcenie monochromatycznego obrazu w pełną barw, suwerenną wizję.
 
@@ -32,7 +33,7 @@ Przekształcenie monochromatycznego obrazu w pełną barw, suwerenną wizję.
 
     Atmosfera: Wymiana nieba i dodanie chmur z wykorzystaniem techniki „Kolor na alfę”, co nadało scenie dynamizmu.
 
-Etap 3: Montaż i Integracja Postaci
+**Etap 3:** Montaż i Integracja Postaci
 
 Finałowa faza projektu, w której autor zostaje osadzony wewnątrz wykreowanego świata.
 
@@ -44,8 +45,12 @@ Finałowa faza projektu, w której autor zostaje osadzony wewnątrz wykreowanego
 
 
 
-Galeria:
+**Galeria:**
     ![Oryginalny obraz](./Oryginalne_zdjęcie.jpg)
+Rys. 1. Oryginalny obraz.
     ![Etap 1](./Projekt_nr1_Etap1.jpg)
+Rys. 2. Obraz po etapie nr 1.
     ![Etap 2](./Projekt_nr1_Etap2.jpg)
+Rys. 3. Obraz po etapie nr 2.
     ![Etap 3](./Projekt_nr1_Etap3.jpg)
+Rys. 4. Obraz po etapie nr 3.
