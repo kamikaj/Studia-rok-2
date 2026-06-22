@@ -12,6 +12,7 @@ Witryna została zaprojektowana w unikalnej estetyce **„Deep Space”**, opart
 * **Efekty wizualne:** Efekt gwiezdnego pyłu w nagłówku został wygenerowany w całości za pomocą zaawansowanych algorytmów CSS.
 * **Interfejs:** Zastosowanie zaokrąglonych narożników (`border-radius`) oraz subtelnych poświat (`glow effect`) buduje wrażenie trójwymiarowości i głębi interfejsu.
 * **Geneza:** Strona bazuje na projekcie rozwijanym podczas laboratoriów 1-3, rozbudowanym o zaawansowane mechanizmy interaktywne.
+* **Live Demo:** [🚀 Uruchom projekt](https://interaktywnyprzewodnikhtml.vercel.app/)
 
 ---
 
