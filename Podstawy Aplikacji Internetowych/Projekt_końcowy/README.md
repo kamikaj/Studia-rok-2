@@ -4,7 +4,7 @@ Zaawansowana aplikacja webowa typu **SPA (Single Page Application)** stanowiąca
 
 **Autor:** Kamil Sitarski 
 
-**Uruchom projekt:** [🚀 Zobacz Live Demo](https://kamikaj.github.io/Studia-rok-2/Podstawy%20Aplikacji%20Internetowych/Projekt_ko%C5%84cowy/index.html)
+**Uruchom projekt:** [🚀 Zobacz Live Demo](https://kamikaj.github.io/Studia-rok-2/Podstawy%20Aplikacji%20Internetowych/Projekt_ko%C5%84cowy/Pulpit_Studenta/index.html)
 
 **⚠️ Uwaga dotycząca uruchamiania:**
 Aplikacja korzysta z asynchronicznego pobierania danych (Fetch API) oraz Web Storage API. Z tego względu, w przypadku pobrania plików na dysk lokalny, uruchomienie aplikacji bezpośrednio poprzez dwukrotne kliknięcie w index.html (protokół file://) może zablokować niektóre funkcjonalności ze względów bezpieczeństwa przeglądarki (blokada CORS).
